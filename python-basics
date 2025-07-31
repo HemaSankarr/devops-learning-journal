@@ -1,0 +1,11 @@
+
+#variable
+name = "HM"
+
+#function
+def greet(person):
+    return f"Hello, {person}!"
+
+#loop
+for i in range(3):
+    print(greet(name), "Number:", i+1)
